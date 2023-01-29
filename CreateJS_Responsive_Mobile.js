@@ -459,6 +459,15 @@ if (reversed == null) { reversed = false; }
 		
 		escena1.stop();
 		
+		escena1.ficha1.cursor = "pointer";
+		escena1.ficha2.cursor = "pointer";
+		escena1.ficha3.cursor = "pointer";
+		escena1.ficha4.cursor = "pointer";
+		escena1.ficha5.cursor = "pointer";
+		escena1.ficha6.cursor = "pointer";
+		escena1.ficha7.cursor = "pointer";
+		escena1.ficha8.cursor = "pointer";
+		
 		escena1.ficha1.addEventListener("pressmove", dragMovieClip);
 		escena1.ficha2.addEventListener("pressmove", dragMovieClip);
 		escena1.ficha3.addEventListener("pressmove", dragMovieClip);
@@ -606,11 +615,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CreateJS_Responsive_Mobile_atlas_1.png?1674953402039", id:"CreateJS_Responsive_Mobile_atlas_1"},
-		{src:"images/CreateJS_Responsive_Mobile_atlas_2.png?1674953402040", id:"CreateJS_Responsive_Mobile_atlas_2"},
-		{src:"images/CreateJS_Responsive_Mobile_atlas_3.png?1674953402040", id:"CreateJS_Responsive_Mobile_atlas_3"},
-		{src:"images/CreateJS_Responsive_Mobile_atlas_4.png?1674953402040", id:"CreateJS_Responsive_Mobile_atlas_4"},
-		{src:"images/CreateJS_Responsive_Mobile_atlas_5.png?1674953402040", id:"CreateJS_Responsive_Mobile_atlas_5"}
+		{src:"images/CreateJS_Responsive_Mobile_atlas_1.png?1674955610889", id:"CreateJS_Responsive_Mobile_atlas_1"},
+		{src:"images/CreateJS_Responsive_Mobile_atlas_2.png?1674955610889", id:"CreateJS_Responsive_Mobile_atlas_2"},
+		{src:"images/CreateJS_Responsive_Mobile_atlas_3.png?1674955610889", id:"CreateJS_Responsive_Mobile_atlas_3"},
+		{src:"images/CreateJS_Responsive_Mobile_atlas_4.png?1674955610889", id:"CreateJS_Responsive_Mobile_atlas_4"},
+		{src:"images/CreateJS_Responsive_Mobile_atlas_5.png?1674955610889", id:"CreateJS_Responsive_Mobile_atlas_5"}
 	],
 	preloads: []
 };
