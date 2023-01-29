@@ -3,11 +3,11 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"CreateJS_Responsive_Desktop_atlas_1", frames: [[1206,1364,602,150],[0,0,1920,960],[0,962,400,400],[402,962,400,400],[804,962,400,400],[1206,962,400,400],[1608,962,400,400],[0,1364,400,400],[402,1364,400,400],[804,1364,400,400]]},
-		{name:"CreateJS_Responsive_Desktop_atlas_2", frames: [[0,0,1920,960],[0,962,1920,960]]},
-		{name:"CreateJS_Responsive_Desktop_atlas_3", frames: [[0,0,1920,960],[0,962,1920,960]]},
-		{name:"CreateJS_Responsive_Desktop_atlas_4", frames: [[0,0,1920,960],[0,962,1920,960]]},
-		{name:"CreateJS_Responsive_Desktop_atlas_5", frames: [[0,0,1920,960],[0,962,1920,960]]}
+		{name:"CreateJS_Responsive_Mobile_atlas_1", frames: [[1206,1364,403,100],[0,0,1920,960],[0,962,400,400],[402,962,400,400],[804,962,400,400],[1206,962,400,400],[1608,962,400,400],[0,1364,400,400],[402,1364,400,400],[804,1364,400,400]]},
+		{name:"CreateJS_Responsive_Mobile_atlas_2", frames: [[0,0,1920,960],[0,962,1920,960]]},
+		{name:"CreateJS_Responsive_Mobile_atlas_3", frames: [[0,0,1920,960],[0,962,1920,960]]},
+		{name:"CreateJS_Responsive_Mobile_atlas_4", frames: [[0,0,1920,960],[0,962,1920,960]]},
+		{name:"CreateJS_Responsive_Mobile_atlas_5", frames: [[0,0,1920,960],[0,962,1920,960]]}
 ];
 
 
@@ -31,127 +31,127 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_199 = function() {
-	this.initialize(ss["CreateJS_Responsive_Desktop_atlas_1"]);
+(lib.CachedBmp_200 = function() {
+	this.initialize(ss["CreateJS_Responsive_Mobile_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bg_basic = function() {
-	this.initialize(ss["CreateJS_Responsive_Desktop_atlas_5"]);
+	this.initialize(ss["CreateJS_Responsive_Mobile_atlas_5"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bg_culture = function() {
-	this.initialize(ss["CreateJS_Responsive_Desktop_atlas_5"]);
+	this.initialize(ss["CreateJS_Responsive_Mobile_atlas_5"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bg_elearning = function() {
-	this.initialize(ss["CreateJS_Responsive_Desktop_atlas_4"]);
+	this.initialize(ss["CreateJS_Responsive_Mobile_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bg_gaming = function() {
-	this.initialize(ss["CreateJS_Responsive_Desktop_atlas_4"]);
+	this.initialize(ss["CreateJS_Responsive_Mobile_atlas_4"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bg_gnosis = function() {
-	this.initialize(ss["CreateJS_Responsive_Desktop_atlas_3"]);
+	this.initialize(ss["CreateJS_Responsive_Mobile_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bg_homosapiens = function() {
-	this.initialize(ss["CreateJS_Responsive_Desktop_atlas_3"]);
+	this.initialize(ss["CreateJS_Responsive_Mobile_atlas_3"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bg_softwaredev = function() {
-	this.initialize(ss["CreateJS_Responsive_Desktop_atlas_2"]);
+	this.initialize(ss["CreateJS_Responsive_Mobile_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bg_visualdesign = function() {
-	this.initialize(ss["CreateJS_Responsive_Desktop_atlas_2"]);
+	this.initialize(ss["CreateJS_Responsive_Mobile_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.bg_webdesign = function() {
-	this.initialize(ss["CreateJS_Responsive_Desktop_atlas_1"]);
+	this.initialize(ss["CreateJS_Responsive_Mobile_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.elearningMRD2badgeoriginal = function() {
-	this.initialize(ss["CreateJS_Responsive_Desktop_atlas_1"]);
+	this.initialize(ss["CreateJS_Responsive_Mobile_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.gamingMRD2badgeoriginal = function() {
-	this.initialize(ss["CreateJS_Responsive_Desktop_atlas_1"]);
+	this.initialize(ss["CreateJS_Responsive_Mobile_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.gnosisMRD2badgeoriginal = function() {
-	this.initialize(ss["CreateJS_Responsive_Desktop_atlas_1"]);
+	this.initialize(ss["CreateJS_Responsive_Mobile_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.homosapiensMRD2badgeoriginal = function() {
-	this.initialize(ss["CreateJS_Responsive_Desktop_atlas_1"]);
+	this.initialize(ss["CreateJS_Responsive_Mobile_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.logoscultureMRD2badgeoriginal = function() {
-	this.initialize(ss["CreateJS_Responsive_Desktop_atlas_1"]);
+	this.initialize(ss["CreateJS_Responsive_Mobile_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.visualdesignMRD2badgeoriginal = function() {
-	this.initialize(ss["CreateJS_Responsive_Desktop_atlas_1"]);
+	this.initialize(ss["CreateJS_Responsive_Mobile_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.webdesignMRD2badgeoriginal = function() {
-	this.initialize(ss["CreateJS_Responsive_Desktop_atlas_1"]);
+	this.initialize(ss["CreateJS_Responsive_Mobile_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.webdevMRD2badgeoriginal = function() {
-	this.initialize(ss["CreateJS_Responsive_Desktop_atlas_1"]);
+	this.initialize(ss["CreateJS_Responsive_Mobile_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -229,8 +229,8 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// text
-	this.instance = new lib.CachedBmp_199();
-	this.instance.setTransform(-100.75,-25.1,0.3347,0.3347);
+	this.instance = new lib.CachedBmp_200();
+	this.instance.setTransform(-100.75,-25.1,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -434,7 +434,7 @@ p.nominalBounds = new cjs.Rectangle(-1137,-568,2273.8,1136.9);
 
 
 // stage content:
-(lib.CreateJS_Responsive_Desktop = function(mode,startPosition,loop,reversed) {
+(lib.CreateJS_Responsive_Mobile = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -547,70 +547,70 @@ if (reversed == null) { reversed = false; }
 
 	// title
 	this.instance = new lib.title();
-	this.instance.setTransform(990.65,115.3,1.4937,1.4937,0,0,0,0,0.1);
+	this.instance.setTransform(199.45,51.5,0.6691,0.6691);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// fichas
 	this.ficha8 = new lib.gaming();
 	this.ficha8.name = "ficha8";
-	this.ficha8.setTransform(1547.7,786.3,1.2354,1.2354,0,0,0,0.1,0.1);
+	this.ficha8.setTransform(255.95,525.9,0.4044,0.4044,0,0,0,0.1,0.2);
 
 	this.ficha7 = new lib.homosapiens();
 	this.ficha7.name = "ficha7";
-	this.ficha7.setTransform(1168.65,788.4,1.2354,1.2354,0,0,0,0.1,0.1);
+	this.ficha7.setTransform(256.3,401,0.4044,0.4044,0,0,0,0.2,0.2);
 
 	this.ficha6 = new lib.culture();
 	this.ficha6.name = "ficha6";
-	this.ficha6.setTransform(788.6,787.15,1.2354,1.2354,0,0,0,0.1,1);
+	this.ficha6.setTransform(256.35,276.2,0.4044,0.4044,0,0,0,0.4,1.1);
 
 	this.ficha5 = new lib.gnosis();
 	this.ficha5.name = "ficha5";
-	this.ficha5.setTransform(408.2,786.1,1.2354,1.2354);
+	this.ficha5.setTransform(119.25,277.5,0.4044,0.4044,0,0,0,0.2,0.2);
 
 	this.ficha4 = new lib.softwaredev();
 	this.ficha4.name = "ficha4";
-	this.ficha4.setTransform(1537.05,450.8,1.2354,1.2354);
+	this.ficha4.setTransform(119.35,526.5,0.4044,0.4044,0,0,0,0.2,0.2);
 
 	this.ficha3 = new lib.visualdesign();
 	this.ficha3.name = "ficha3";
-	this.ficha3.setTransform(1161.65,449.65,1.2354,1.2354,0,0,0,0.1,0);
+	this.ficha3.setTransform(119.35,402.1,0.4044,0.4044,0,0,0,0.2,0.2);
 
 	this.ficha2 = new lib.webdesign();
 	this.ficha2.name = "ficha2";
-	this.ficha2.setTransform(785.75,485.8,1.2354,1.2354,0,0,0,0.1,27.3);
+	this.ficha2.setTransform(256.25,161.55,0.4044,0.4044,0,0,0,0.4,27.4);
 
 	this.ficha1 = new lib.elearning();
 	this.ficha1.name = "ficha1";
-	this.ficha1.setTransform(410.2,470.6,1.2354,1.2354,0,0,0,0,17.3);
+	this.ficha1.setTransform(119.3,160,0.4044,0.4044,0,0,0,0.2,17.4);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.ficha1},{t:this.ficha2},{t:this.ficha3},{t:this.ficha4},{t:this.ficha5},{t:this.ficha6},{t:this.ficha7},{t:this.ficha8}]}).wait(1));
 
 	// bg
 	this.bg = new lib.bg();
 	this.bg.name = "bg";
-	this.bg.setTransform(956.1,539.15);
+	this.bg.setTransform(187.15,334.35,0.6056,0.6056);
 
 	this.timeline.addTween(cjs.Tween.get(this.bg).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(813.1,527.2,1246.4,563.2);
+p.nominalBounds = new cjs.Rectangle(-293.3,333.6,1148.7,334.6);
 // library properties:
 lib.properties = {
 	id: '6073015432E946D2B597B32C35DD25F3',
-	width: 1920,
-	height: 1080,
+	width: 375,
+	height: 667,
 	fps: 60,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CreateJS_Responsive_Desktop_atlas_1.png?1674953382330", id:"CreateJS_Responsive_Desktop_atlas_1"},
-		{src:"images/CreateJS_Responsive_Desktop_atlas_2.png?1674953382330", id:"CreateJS_Responsive_Desktop_atlas_2"},
-		{src:"images/CreateJS_Responsive_Desktop_atlas_3.png?1674953382330", id:"CreateJS_Responsive_Desktop_atlas_3"},
-		{src:"images/CreateJS_Responsive_Desktop_atlas_4.png?1674953382330", id:"CreateJS_Responsive_Desktop_atlas_4"},
-		{src:"images/CreateJS_Responsive_Desktop_atlas_5.png?1674953382330", id:"CreateJS_Responsive_Desktop_atlas_5"}
+		{src:"images/CreateJS_Responsive_Mobile_atlas_1.png?1674953402039", id:"CreateJS_Responsive_Mobile_atlas_1"},
+		{src:"images/CreateJS_Responsive_Mobile_atlas_2.png?1674953402040", id:"CreateJS_Responsive_Mobile_atlas_2"},
+		{src:"images/CreateJS_Responsive_Mobile_atlas_3.png?1674953402040", id:"CreateJS_Responsive_Mobile_atlas_3"},
+		{src:"images/CreateJS_Responsive_Mobile_atlas_4.png?1674953402040", id:"CreateJS_Responsive_Mobile_atlas_4"},
+		{src:"images/CreateJS_Responsive_Mobile_atlas_5.png?1674953402040", id:"CreateJS_Responsive_Mobile_atlas_5"}
 	],
 	preloads: []
 };
@@ -729,5 +729,5 @@ an.handleFilterCache = function(event) {
 }
 
 
-})(createjsDesktop = createjsDesktop||{}, AdobeAn = AdobeAn||{});
-var createjsDesktop, AdobeAn;
+})(createjsMobile = createjsMobile||{}, AdobeAn = AdobeAn||{});
+var createjsMobile, AdobeAn;
