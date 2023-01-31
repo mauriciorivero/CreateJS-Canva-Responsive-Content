@@ -38,6 +38,15 @@
     #container-mobile{
         display: none;
     }
+
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    footer p{
+        font-family: sans-serif;
+    }
 }
 
 @media (min-width: 501px) and (max-width: 1024px) {
@@ -47,6 +56,14 @@
 
     #container-mobile{
         display: none;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    footer p{
+        font-family: sans-serif;
     }
 }
 
@@ -88,5 +105,13 @@
         font-family: sans-serif;
         font-size: 30px;
         text-decoration: none;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    footer p{
+        font-family: sans-serif;
     }
 }
