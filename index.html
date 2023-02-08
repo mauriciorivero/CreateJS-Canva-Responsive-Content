@@ -6,13 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <title>Responsive Interactive Canva HTML5 Content</title>
+    <style>
+        #anim_containerDesktop {
+          position:absolute;
+          margin:auto;
+          left:0;right:0;
+          top:0;bottom:0;
+        }
+      </style>
+    <script>
+        // change the default namespace for the CreateJS libraries:
+        var createjsDesktop = createjsDesktop||{};
+        var createjs = createjsDesktop;
+    </script>
+    <script src="CreateJS_Responsive_Desktop.js"></script>
+    <script src="responsive-screen.js"></script>
 </head>
-<body>
+<body onload="initDesktop();" style="margin:0px;">
 	<header>
 
     </header>
     <main>
-        
+        <div id="anim_containerDesktop" style="background-color:rgba(255, 255, 255, 1.00); width:1920px; height:1080px">
+            <canvas id="canvasDesktop" width="1920" height="1080" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+            <div id="dom_overlay_containerDesktop" style="pointer-events:none; overflow:hidden; width:1920px; height:1080px; position: absolute; left: 0px; top: 0px; display: block;">
+            </div>
+        </div>
     </main>
     <footer>
         <p>Made by <a href="www.mrd2.co">MRD2</a></p>

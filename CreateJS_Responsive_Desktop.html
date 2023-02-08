@@ -13,61 +13,12 @@
 <meta name="authoring-tool" content="Adobe_Animate_CC">
 <title>CreateJS_Responsive_Desktop</title>
 <!-- write your code here -->
-<style>
-  #animation_container {
-	position:absolute;
-	margin:auto;
-	left:0;right:0;
-	top:0;bottom:0;
-  }
-</style>
-<script>
-	// change the default namespace for the CreateJS libraries:
-	var createjsDesktop = createjsDesktop||{};
-	var createjs = createjsDesktop;
-</script>
+
+
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
 <script src="CreateJS_Responsive_Desktop.js?1674939611860"></script>
 <script>
-var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
-function init() {
-	canvas = document.getElementById("canvas");
-	anim_container = document.getElementById("animation_container");
-	dom_overlay_container = document.getElementById("dom_overlay_container");
-	var comp=AdobeAn.getComposition("6073015432E946D2B597B32C35DD25F3");
-	var libDesktop=comp.getLibrary();
-	var loader = new createjsDesktop.LoadQueue(false);
-	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
-	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
-	var libDesktop=comp.getLibrary();
-	loader.loadManifest(libDesktop.properties.manifest);
-}
-function handleFileLoad(evt, comp) {
-	var imagesDesktop=comp.getImages();	
-	if (evt && (evt.item.type == "image")) { imagesDesktop[evt.item.id] = evt.result; }	
-}
-function handleComplete(evt,comp) {
-	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
-	var libDesktop=comp.getLibrary();
-	var ss=comp.getSpriteSheet();
-	var queue = evt.target;
-	var ssMetadata = libDesktop.ssMetadata;
-	for(i=0; i<ssMetadata.length; i++) {
-		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
-	}
-	exportRoot = new libDesktop.CreateJS_Responsive_Desktop();
-	stage = new libDesktop.Stage(canvas);	
-	//Registers the "tick" event listener.
-	fnStartAnimation = function() {
-		stage.addChild(exportRoot);
-		createjsDesktop.Ticker.framerate = libDesktop.properties.fps;
-		createjsDesktop.Ticker.addEventListener("tick", stage);
-	}	    
-	//Code to support hidpi screens and responsive scaling.
-	AdobeAn.makeResponsive(true,'both',false,1,[canvas,anim_container,dom_overlay_container]);	
-	AdobeAn.compositionLoaded(libDesktop.properties.id);
-	fnStartAnimation();
-}
+
 </script>
 <!-- write your code here -->
 </head>
