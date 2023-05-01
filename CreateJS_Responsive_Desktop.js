@@ -1,4 +1,3 @@
-
 (function (cjs, an) {
 
 var p; // shortcut to reference prototypes
@@ -32,7 +31,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_199 = function() {
+(lib.CachedBmp_1 = function() {
 	this.initialize(ss["CreateJS_Responsive_Desktop_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -230,7 +229,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// text
-	this.instance = new lib.CachedBmp_199();
+	this.instance = new lib.CachedBmp_1();
 	this.instance.setTransform(-100.75,-25.1,0.3347,0.3347);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -456,6 +455,11 @@ if (reversed == null) { reversed = false; }
 		if(this.totalFrames == 1) {
 			this.isSingleFrame = true;
 		}
+		/*
+		
+		-----Inicio del codigo para la escena 1
+		
+		*/
 		var escena1 = this;
 		
 		escena1.stop();
@@ -550,6 +554,12 @@ if (reversed == null) { reversed = false; }
 		
 		
 		*/
+		
+		/*
+		
+		---------Fin del codigo para la escena 1
+		
+		*/
 	}
 
 	// actions tween:
@@ -616,11 +626,11 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CreateJS_Responsive_Desktop_atlas_1.png?1674955589336", id:"CreateJS_Responsive_Desktop_atlas_1"},
-		{src:"images/CreateJS_Responsive_Desktop_atlas_2.png?1674955589336", id:"CreateJS_Responsive_Desktop_atlas_2"},
-		{src:"images/CreateJS_Responsive_Desktop_atlas_3.png?1674955589336", id:"CreateJS_Responsive_Desktop_atlas_3"},
-		{src:"images/CreateJS_Responsive_Desktop_atlas_4.png?1674955589336", id:"CreateJS_Responsive_Desktop_atlas_4"},
-		{src:"images/CreateJS_Responsive_Desktop_atlas_5.png?1674955589336", id:"CreateJS_Responsive_Desktop_atlas_5"}
+		{src:"images/CreateJS_Responsive_Desktop_atlas_1.png?1682964509018", id:"CreateJS_Responsive_Desktop_atlas_1"},
+		{src:"images/CreateJS_Responsive_Desktop_atlas_2.png?1682964509018", id:"CreateJS_Responsive_Desktop_atlas_2"},
+		{src:"images/CreateJS_Responsive_Desktop_atlas_3.png?1682964509018", id:"CreateJS_Responsive_Desktop_atlas_3"},
+		{src:"images/CreateJS_Responsive_Desktop_atlas_4.png?1682964509018", id:"CreateJS_Responsive_Desktop_atlas_4"},
+		{src:"images/CreateJS_Responsive_Desktop_atlas_5.png?1682964509018", id:"CreateJS_Responsive_Desktop_atlas_5"}
 	],
 	preloads: []
 };
